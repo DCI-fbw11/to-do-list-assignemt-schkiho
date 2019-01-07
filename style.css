@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5rem;
+}
+body {
+  background: chartreuse;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+h3,
+label {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+button {
+  background: black;
+  color: yellow;
+  border: hidden;
+  border-radius: 10px;
+  /*margin:0 10px;*/
+}
+input{
+  border-radius: 5px;
+  border:hidden;
+}
+.list-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10vh 25vw 10vh 25vw;
+  width: 50vw;
+  border: 1px solid black;
+}
+.header {
+  text-align: center;
+  padding: 1rem;
+  background: green;
+}
+li{
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+  
+}
+.do-list {
+  text-align: center;
+  padding: 1rem;
+  background: white;
+}
+.wo-list {
+  text-align: center;
+  padding: 1rem;
+  background: red;
+}
+.end-list {
+  text-align: center;
+  padding: 1rem;
+  background: olive;
+}

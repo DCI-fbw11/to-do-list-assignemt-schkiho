@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="lg-heading">What's to do!!!</h1>
+
+    <div class="list-container">
+      <div class="header">
+        <p>
+          <label for="new-task">Add new Task</label> <br />
+          <input type="text" id="inputValue" placeholder="enter new task" />
+          <button id="addButton">Add</button>
+        </p>
+      </div>
+
+      <div class="do-list">
+        <h3>What's to do</h3>
+
+        <ul id="taskList"></ul>
+      </div>
+
+      <div class="wo-list">
+        <h3>in Work</h3>
+
+        <ul id="workList"></ul>
+      </div>
+
+      <div class="end-list">
+        <h3>Completed Tasks</h3>
+
+        <ul id="finished"></ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="index2.js"></script>
+  </body>
+</html>
